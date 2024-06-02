@@ -1,0 +1,82 @@
+@import "fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  before-content::before {
+    content: "";
+  }
+
+  after-content::after {
+    content: "";
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Hide the scrollbar by default and show it on hover */
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
+
+.scroll-custom::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.scroll-custom::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 2px;
+}
+
+.scroll-custom:hover:-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.scroll-custom:hover::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 2px;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+/* Data Table Style */
+.item-index font {
+  font-size: 6px;
+}
+
+div[data-tag="allowRowEvents"] {
+  width: 100%;
+}

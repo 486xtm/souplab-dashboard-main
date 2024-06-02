@@ -1,0 +1,119 @@
+/* Laira font */
+@font-face {
+  font-family: "Laira";
+  src: url("./fonts/Laira/laira.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Laira";
+  src: url("./fonts/Laira/laira-italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Manrope font */
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-ExtraLight.woff2") format("woff2");
+  font-weight: 200; /* ExtraLight is often 200 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Light.woff2") format("woff2");
+  font-weight: 300; /* Light is often 300 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Regular.woff2") format("woff2");
+  font-weight: normal; /* Normal is often 400 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Medium.woff2") format("woff2");
+  font-weight: 500; /* Medium is often 500 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-SemiBold.woff2") format("woff2");
+  font-weight: 600; /* SemiBold is often 600 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope/Manrope-ExtraBold.woff2") format("woff2");
+  font-weight: 800; /* ExtraBold is often 800 */
+  font-style: normal;
+}
+
+/* Inter font */
+@font-face {
+  font-family: "Inter";
+  font-weight: 100;
+  src: url("./fonts/Inter/Inter-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 200;
+  src: url("./fonts/Inter/Inter-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 300;
+  src: url("./fonts/Inter/Inter-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("./fonts/Inter/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("./fonts/Inter/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("./fonts/Inter/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("./fonts/Inter/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 800;
+  src: url("./fonts/Inter/Inter-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 900;
+  src: url("./fonts/Inter/Inter-Black.woff2") format("woff2");
+}
